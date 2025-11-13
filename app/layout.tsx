@@ -6,15 +6,15 @@ import React from "react";
 
 // ✅ SEO-friendly Metadata (Next.js App Router compatible)
 export const metadata = {
-  title: "AbhiDekho - Book car and bus seats instantly",
+  title: "AbhiDekho – India’s Fastest Seat Booking App",
   
   description:
-    "AbhiDekho — Book car and bus seats instantly with real-time seat selection, dynamic pricing, and instant confirmation.",
+    "AbhiDekho — Book car and bus seats with real-time seat selection, dynamic pricing, and instant confirmation.",
 
   openGraph: {
-    title: "AbhiDekho - Book car and bus seats instantly",
+    title: "AbhiDekho – India’s Fastest Seat Booking App",
     description:
-      "Travel smart with AbhiDekho — your one-stop platform for booking cars and bus and private rides across India.",
+      "AbhiDekho — your one-stop platform for booking cars and bus and private rides across India.",
     url: "https://abhidhekho.online/",
     siteName: "AbhiDekho",
     images: [
@@ -22,7 +22,7 @@ export const metadata = {
         url: "https://abhidhekho.in/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "AbhiDekho - Book car and bus seats instantly",
+        alt: "AbhiDekho – India’s Fastest Seat Booking App",
       },
     ],
     type: "website",
@@ -30,7 +30,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "AbhiDekho - Book car and bus seats instantly",
+    title: "AbhiDekho – India’s Fastest Seat Booking App",
     description:
       "Instant booking, flexible payment, and verified rides — only on AbhiDekho.",
     images: ["https://abhidhekho.online/og-image.jpg"],

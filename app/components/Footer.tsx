@@ -93,7 +93,7 @@ export default function AbhiDekhoFooter() {
           <h3 className="font-semibold text-xl mb-4 text-white">Support</h3>
           <p>📍 Kakrala, India</p>
           <p className="mt-2">📞 +91 8588003437</p>
-          <p className="mt-1">📧 support@abhibus.com</p>
+          <p className="mt-1">📧 abhidekhoindia@gmail.com</p>
           <div className="mt-4">
             <Link
               href="/contact"

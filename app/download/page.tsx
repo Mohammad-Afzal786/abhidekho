@@ -10,7 +10,7 @@ export default function DownloadPage() {
     <>
       <SEOHead
         title="AbhiDekho - Download App"
-        description="Book bus and car seats instantly with AbhiDekho. Real-time seat selection, and instant confirmations. Download the official AbhiDekho app today!"
+        description="AbhiDekho — Book car and bus seats with real-time seat selection, dynamic pricing, and instant confirmation. Download the official AbhiDekho app today!"
         url="https://abhidekho.online/download"
         image="https://abhidekho.online/og-image.jpg"
       />
@@ -30,7 +30,7 @@ export default function DownloadPage() {
             Download Official App
           </h2>
           <p className="z-10 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-8 animate-fadeIn delay-200">
-            Book bus and car seats instantly. Choose your seat, compare fares, and get instant confirmation — fast, simple, and secure.
+            AbhiDekho — Book car and bus seats with real-time seat selection, Choose your seat, compare fares, and get instant confirmation — fast, simple, and secure.
           </p>
 
           <Link

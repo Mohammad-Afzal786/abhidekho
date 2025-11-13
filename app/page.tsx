@@ -7,8 +7,8 @@ export default function HomePage() {
   return (
     <>
       <SEOHead
-        title="AbhiDekho - Book Car & Bus Seats Instantly"
-        description="AbhiDekho — Book car and bus seats instantly with real-time seat selection, dynamic pricing, and instant confirmation."
+        title="AbhiDekho – India’s Fastest Seat Booking App"
+        description="AbhiDekho — Book car and bus seats with real-time seat selection, dynamic pricing, and instant confirmation."
         url="https://abhidekho.online/"
         image="https://abhidekho.app/og-image.jpg"
       />
@@ -45,7 +45,7 @@ export default function HomePage() {
         {/* 🏠 Hero Section */}
         <section className="relative z-10 flex flex-col items-center justify-center text-center px-4 py-16 md:py-24">
           <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight text-white">
-            <span  className="text-emerald-400">AbhiDekho</span> — Book Car & Bus Seats Instantly
+            <span  className="text-emerald-400">AbhiDekho</span> — Book car and bus seats with real-time seat selection
           </h1>
           <p className="text-base md:text-lg text-gray-300 max-w-md mx-auto mb-6">
             Choose seats, compare fares, and confirm in seconds — fast, simple & secure.

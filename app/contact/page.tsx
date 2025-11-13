@@ -25,7 +25,7 @@ export default function ContactPage() {
             name: "AbhiDekho",
             url: "https://abhidekho.online",
             telephone: "+91 8588003437",
-            email: "contact@abhidekho.online",
+            email: "abhidekhoindia@gmail.com",
             address: {
               "@type": "PostalAddress",
               streetAddress: "AbhiDekho App",
@@ -84,7 +84,7 @@ export default function ContactPage() {
                   href="mailto:contact@abhidekho.online"
                   className="hover:text-emerald-400 transition"
                 >
-                  contact@abhidekho.online
+                  abhidekho@gmail.com
                 </a>
               </h4>
             </div>
