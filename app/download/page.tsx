@@ -21,8 +21,6 @@ export default function DownloadPage() {
           {/* glowing background */}
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(34,197,94,0.15),transparent_50%),radial-gradient(circle_at_80%_80%,rgba(79,70,229,0.15),transparent_50%)] blur-3xl"></div>
 
-        
-
           <h1 className="z-10 text-5xl sm:text-6xl font-extrabold mb-4 text-emerald-400 animate-fadeIn">
             AbhiDekho
           </h1>

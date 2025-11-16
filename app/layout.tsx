@@ -15,11 +15,11 @@ export const metadata = {
     title: "AbhiDekho – India’s Fastest Seat Booking App",
     description:
       "AbhiDekho — your one-stop platform for booking cars and bus and private rides across India.",
-    url: "https://abhidhekho.online/",
+    url: "https://abhidekho.online/",
     siteName: "AbhiDekho",
     images: [
       {
-        url: "https://abhidhekho.in/og-image.jpg",
+        url: "https://abhidekho.in/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "AbhiDekho – India’s Fastest Seat Booking App",
@@ -33,12 +33,12 @@ export const metadata = {
     title: "AbhiDekho – India’s Fastest Seat Booking App",
     description:
       "Instant booking, flexible payment, and verified rides — only on AbhiDekho.",
-    images: ["https://abhidhekho.online/og-image.jpg"],
+    images: ["https://abhidekho.online/og-image.jpg"],
   },
 
-  metadataBase: new URL("https://abhidhekho.online"),
+  metadataBase: new URL("https://abhidekho.online"),
   alternates: {
-    canonical: "https://abhidhekho.online",
+    canonical: "https://abhidekho.online",
   },
 };
 
