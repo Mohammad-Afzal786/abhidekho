@@ -23,7 +23,14 @@ export default function HomePage() {
             name: "AbhiDekho",
             url: "https://abhidekho.online",
             logo: "https://abhidekho.online/logo.png",
-            sameAs: ["https://instagram.com/abhidekhoindia"],
+            sameAs: [
+              "https://instagram.com/abhidekhoindia",
+              "https://www.linkedin.com/company/abhidekho",
+              "https://abhidekho.online",
+              "https://www.abhidekho.online/download",
+              "https://www.abhidekho.online/contact",
+              "https://www.abhidekho.online/privacy"
+            ],
             contactPoint: [
               {
                 "@type": "ContactPoint",
@@ -45,7 +52,7 @@ export default function HomePage() {
         {/* 🏠 Hero Section */}
         <section className="relative z-10 flex flex-col items-center justify-center text-center px-4 py-16 md:py-24">
           <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight text-white">
-            <span  className="text-emerald-400">AbhiDekho</span> — Book car and bus seats with real-time seat selection
+            <span className="text-emerald-400">AbhiDekho</span> — Book car and bus seats with real-time seat selection
           </h1>
           <p className="text-base md:text-lg text-gray-300 max-w-md mx-auto mb-6">
             Choose seats, compare fares, and confirm in seconds — fast, simple & secure.
