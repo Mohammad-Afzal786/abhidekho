@@ -28,20 +28,25 @@ export default function Header() {
             Home
           </Link>
           <Link href="/download" className="hover:text-emerald-400 transition">
-            Download
+            Customer App Download
           </Link>
           <Link href="/privacy" className="hover:text-emerald-400 transition">
             Privacy Policy
           </Link>
+
           <Link href="/contact" className="hover:text-emerald-400 transition">
             Contact
           </Link>
+          <Link href="/partner" className="hover:text-emerald-400 transition">
+            Partner App Downlod
+          </Link>
 
+          
           <Link
             href="/api/download-apk"
             className="ml-2 px-4 py-2 bg-emerald-500 hover:bg-emerald-600 rounded-lg font-semibold text-gray-900 transition"
           >
-            Download App
+            Customer Download App
           </Link>
         </nav>
 
@@ -52,28 +57,24 @@ export default function Header() {
           aria-label="Toggle Menu"
         >
           <span
-            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
-              menuOpen ? "rotate-45 translate-y-1.5" : ""
-            }`}
+            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-1.5" : ""
+              }`}
           />
           <span
-            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
-              menuOpen ? "opacity-0" : "my-1"
-            }`}
+            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? "opacity-0" : "my-1"
+              }`}
           />
           <span
-            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
-              menuOpen ? "-rotate-45 -translate-y-1.5" : ""
-            }`}
+            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-1.5" : ""
+              }`}
           />
         </button>
       </div>
 
       {/* ✅ Mobile Dropdown Menu */}
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ${
-          menuOpen ? "max-h-96 mt-2" : "max-h-0"
-        }`}
+        className={`md:hidden overflow-hidden transition-all duration-300 ${menuOpen ? "max-h-96 mt-2" : "max-h-0"
+          }`}
       >
         <nav className="bg-gray-800 rounded-lg shadow-lg p-4">
           <ul className="flex flex-col space-y-3 text-sm">
@@ -82,6 +83,7 @@ export default function Header() {
               { name: "Download", href: "/download" },
               { name: "Privacy Policy", href: "/privacy" },
               { name: "Contact", href: "/contact" },
+              { name: "Partner App Downlod", href: "/partner" },
             ].map((item) => (
               <li key={item.name}>
                 <Link

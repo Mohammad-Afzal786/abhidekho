@@ -74,8 +74,8 @@ export default function PrivacyPolicyPage() {
               <h3 className="text-2xl font-bold mb-4 text-emerald-400">Contact Us</h3>
               <p className="text-gray-300">
                 For any questions about our privacy policy or data practices, please reach out to us at{" "}
-                <a href="mailto:contact@abhidekho.online" className="text-emerald-400 underline">
-                  contact@abhidekho.online
+                <a href="mailto:abhidekhoindia@gmail.com" className="text-emerald-400 underline">
+                  abhidekhoindia@gmail.com
                 </a>.
               </p>
             </div>
