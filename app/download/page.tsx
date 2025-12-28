@@ -32,7 +32,7 @@ export default function DownloadPage() {
           </p>
 
           <Link
-            href="/api/download-apk"
+            href="/userapi/download-apk"
             className="z-10 px-10 py-4 bg-emerald-400 text-gray-900 font-semibold rounded-full shadow-lg hover:scale-105 transition-transform hover:bg-emerald-500"
           >
             ⬇️ Download APK
@@ -82,7 +82,7 @@ export default function DownloadPage() {
               Download <span className="text-emerald-400 font-semibold">AbhiDekho</span> and experience fast, safe, and simple travel booking.
             </p>
             <Link
-              href="/api/download-apk"
+              href="/userapi/download-apk"
               className="px-10 py-4 bg-emerald-400 text-gray-900 font-bold rounded-full shadow-lg hover:bg-emerald-500 hover:scale-105 transition-transform"
             >
               📲 Download App (Android)

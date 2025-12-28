@@ -60,7 +60,7 @@ export default function HomePage() {
 
           <div className="flex flex-col sm:flex-row gap-3 items-center justify-center">
             <a
-              href="/api/download-apk"
+              href="/userapi/download-apk"
               className="px-6 py-3 text-base font-semibold text-gray-900 bg-emerald-400 rounded-full shadow-lg hover:bg-emerald-500 transition"
             >
               ⬇️ Download App
@@ -156,7 +156,7 @@ export default function HomePage() {
               Download <b>AbhiDekho</b> and start booking cars & buses instantly.
             </p>
             <a
-              href="/api/download-apk"
+              href="/userapi/download-apk"
               className="inline-block px-8 py-3 font-semibold bg-emerald-400 text-gray-900 rounded-full shadow-md hover:scale-105 transition"
             >
               ⬇️ Download App

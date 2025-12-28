@@ -101,7 +101,7 @@ export default function Header() {
               </li>
             ))}
 
-            <li>
+            <li className="flex flex-col gap-3">
               <Link
                 href="/partnerapi/download-apk"
                 onClick={() => setMenuOpen(false)}
@@ -109,6 +109,7 @@ export default function Header() {
               >
                 Partner App Downlod
               </Link>
+
               <Link
                 href="/userapi/download-apk"
                 onClick={() => setMenuOpen(false)}
