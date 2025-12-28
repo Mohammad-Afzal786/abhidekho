@@ -40,10 +40,15 @@ export default function Header() {
           <Link href="/partner" className="hover:text-emerald-400 transition">
             Partner App Downlod
           </Link>
-
-          
           <Link
-            href="/api/download-apk"
+            href="/partnerapi/download-apk"
+            className="ml-2 px-4 py-2 bg-emerald-500 hover:bg-emerald-600 rounded-lg font-semibold text-gray-900 transition"
+          >
+            Partner App Downlod
+          </Link>
+
+          <Link
+            href="/userapi/download-apk"
             className="ml-2 px-4 py-2 bg-emerald-500 hover:bg-emerald-600 rounded-lg font-semibold text-gray-900 transition"
           >
             Customer Download App
@@ -98,11 +103,18 @@ export default function Header() {
 
             <li>
               <Link
-                href="/api/download-apk"
+                href="/partnerapi/download-apk"
                 onClick={() => setMenuOpen(false)}
                 className="block text-center bg-emerald-500 hover:bg-emerald-600 text-gray-900 font-semibold py-2 rounded-md transition"
               >
-                ⬇️ Download App
+                Partner App Downlod
+              </Link>
+              <Link
+                href="/userapi/download-apk"
+                onClick={() => setMenuOpen(false)}
+                className="block text-center bg-emerald-500 hover:bg-emerald-600 text-gray-900 font-semibold py-2 rounded-md transition"
+              >
+                Customer Download App
               </Link>
             </li>
           </ul>
