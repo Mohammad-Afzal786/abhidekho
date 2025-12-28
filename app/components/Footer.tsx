@@ -75,8 +75,8 @@ export default function AbhiDekhoFooter() {
           <h3 className="font-semibold text-xl mb-4 text-white">Popular Routes</h3>
           <ul className="space-y-2">
             {[
-              "Delhi → kakrala",
-              "kakrala → Delhi",
+              "Delhi → Up",
+              "Up → Delhi",
              
             ].map((route) => (
               <li key={route}>
@@ -91,7 +91,7 @@ export default function AbhiDekhoFooter() {
         {/* 📞 Support & Contact */}
         <div>
           <h3 className="font-semibold text-xl mb-4 text-white">Support</h3>
-          <p>📍 Kakrala, India</p>
+          <p>📍 Up, India</p>
           <p className="mt-2">📞 +91 8588003437</p>
           <p className="mt-1">📧 abhidekhoindia@gmail.com</p>
           <div className="mt-4">
